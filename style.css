@@ -538,3 +538,313 @@ a#whatsapp svg {
 
 /* Pages
 ========================================================================== */
+.container {
+  width: 72%;
+  height: 100%;
+  padding: 60px 100px;
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.container .left h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.container .left h2 {
+  color: #FFF;
+  padding: 40px;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.container .left .conteudos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.container .left .conteudos a {
+  cursor: pointer;
+  width: 20%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  z-index: 99;
+  transition: all 0.3s;
+}
+.container .left .conteudos a svg {
+  width: 40px;
+  height: auto;
+  fill: #0057A8;
+}
+.container .left .conteudos a span {
+  width: 100%;
+  text-align: center;
+  color: #0057A8;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.container .left .conteudos a:hover {
+  transform: translateY(-20px);
+}
+.container .left .conteudos a:nth-child(1) {
+  background-color: #FFE16B;
+}
+.container .left .conteudos a:nth-child(2) {
+  background-color: #A7A0E0;
+}
+.container .left .conteudos a:nth-child(3) {
+  background-color: #FA86B7;
+}
+.container .left .conteudos a:nth-child(4) {
+  background-color: #5CD9B4;
+}
+
+.projetos {
+  background-color: #FA86B7;
+}
+.projetos .conteudo {
+  padding-top: 80px;
+}
+.projetos .back-to-page svg, .projetos .back-to-page span {
+  color: #000;
+}
+.projetos .back-to-page:hover {
+  background-color: #000;
+}
+.projetos .back-to-page:hover span {
+  color: #FA86B7;
+}
+.projetos .back-to-page:hover svg {
+  fill: #FA86B7;
+}
+
+.historico {
+  background-color: #A7A0E0;
+}
+.historico .conteudo {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 32px;
+}
+.historico .conteudo .evento {
+  width: 40%;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #FFF;
+  margin-left: 20%;
+}
+.historico .conteudo .evento img {
+  width: 100%;
+}
+.historico .conteudo .evento .data {
+  padding-top: 20px;
+  color: #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.historico .conteudo .evento .descricao {
+  padding-top: 20px;
+  font-family: Open Sans;
+  text-align: justify;
+  color: #FFF;
+}
+.historico .conteudo .evento .descricao p {
+  color: #FFF;
+  font-family: Open Sans;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.historico .conteudo .evento:nth-child(2n) {
+  margin-left: 40%;
+}
+.historico .back-to-page svg, .historico .back-to-page span {
+  color: #000;
+}
+.historico .back-to-page:hover {
+  background-color: #000;
+}
+.historico .back-to-page:hover span {
+  color: #A7A0E0;
+}
+.historico .back-to-page:hover svg {
+  fill: #A7A0E0;
+}
+
+.sobre-mim {
+  background-color: #FFE16B;
+}
+.sobre-mim .conteudo {
+  padding-top: 80px;
+  font-family: Open Sans;
+  text-align: justify;
+}
+.sobre-mim .conteudo p {
+  font-family: Open Sans;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.sobre-mim .back-to-page svg, .sobre-mim .back-to-page span {
+  color: #000;
+}
+.sobre-mim .back-to-page:hover {
+  background-color: #000;
+}
+.sobre-mim .back-to-page:hover span {
+  color: #FFE16B;
+}
+.sobre-mim .back-to-page:hover svg {
+  fill: #FFE16B;
+}
+
+.content {
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 9999;
+  top: 0px;
+  left: 0px;
+  transition: all 0.3s;
+  transform: translateY(-100vh);
+  padding: 60px 100px;
+}
+.content.active {
+  transform: translateY(0px);
+}
+
+.top {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+.top .back-to-page {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #000;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+.top h2 {
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.fundo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.fundo::after, .fundo::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 0px;
+}
+.fundo::before {
+  left: 0;
+  background-color: #0057A8;
+  width: 72%;
+}
+.fundo::after {
+  left: auto;
+  right: 0px;
+  width: 28%;
+  background-color: #CBF280;
+}
+.fundo .right {
+  width: 200px;
+  position: absolute;
+  left: auto;
+  right: 60px;
+  top: 60px;
+  z-index: 9999;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 32px;
+}
+.fundo .right .foto {
+  width: calc(100% - 20px);
+  aspect-ratio: 1;
+}
+.fundo .right .foto::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: calc(100% - 20px);
+  aspect-ratio: 1;
+  border: solid 4px #FFF;
+  z-index: -1;
+}
+.fundo .right .foto img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.fundo .right .redes {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+.fundo .right .redes div.pai:hover a svg {
+  transform: rotateY(360deg);
+}
+.fundo .right .redes div.pai a {
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CBF280;
+  border-radius: 50%;
+  padding: 12px;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.fundo .right .redes div.pai a svg {
+  transition: all 0.5s;
+}

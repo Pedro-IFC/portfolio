@@ -3,10 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
-<body>
-    
+<body class="home">
+    <div class="fundo">
+        <div class="right">
+            <div class="foto">
+                <img src="./assets/images/foto-home.jpg" alt="Imagem de Pedro Daniel">
+            </div>
+            <div class="redes">
+                <div class="pai" title="Clique aqui para abrir o menu">
+                    <a href="https://github.com/Pedro-IFC" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 60 60" fill="none">
+                            <g clip-path="url(#clip0_13_70)">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M30 0C13.425 0 0 13.7646 0 30.7588C0 44.3696 8.5875 55.8657 20.5125 59.9412C22.0125 60.2104 22.575 59.2876 22.575 58.4802C22.575 57.7497 22.5375 55.3274 22.5375 52.7514C15 54.174 13.05 50.8674 12.45 49.1372C12.1125 48.2529 10.65 45.523 9.375 44.7925C8.325 44.2158 6.825 42.7932 9.3375 42.7547C11.7 42.7163 13.3875 44.9848 13.95 45.9075C16.65 50.5598 20.9625 49.2526 22.6875 48.4451C22.95 46.4458 23.7375 45.1001 24.6 44.3311C17.925 43.5622 10.95 40.9092 10.95 29.144C10.95 25.799 12.1125 23.0307 14.025 20.8775C13.725 20.1086 12.675 16.9558 14.325 12.7265C14.325 12.7265 16.8375 11.919 22.575 15.8792C24.975 15.1872 27.525 14.8411 30.075 14.8411C32.625 14.8411 35.175 15.1872 37.575 15.8792C43.3125 11.8806 45.825 12.7265 45.825 12.7265C47.475 16.9558 46.425 20.1086 46.125 20.8775C48.0375 23.0307 49.2 25.7605 49.2 29.144C49.2 40.9477 42.1875 43.5622 35.5125 44.3311C36.6 45.2924 37.5375 47.1379 37.5375 50.0215C37.5375 54.1355 37.5 57.4421 37.5 58.4802C37.5 59.2876 38.0625 60.2488 39.5625 59.9412C51.4125 55.8657 60 44.3311 60 30.7588C60 13.7646 46.575 0 30 0Z" fill="black"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_13_70">
+                                <rect width="60" height="60" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+                <div class="pai">
+                    <a href="https://www.instagram.com/pedrodanielhoeller/" target="_blank">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="instagram-seeklogo.com 1" clip-path="url(#clip0_13_77)">
+                            <g id="Group">
+                            <path id="Vector" d="M29.9999 5.40551C38.0103 5.40551 38.9591 5.436 42.1225 5.58033C45.0474 5.71383 46.6359 6.20255 47.6931 6.61328C49.0933 7.1575 50.0928 7.8077 51.1426 8.85744C52.1923 9.90717 52.8425 10.9067 53.3866 12.3069C53.7974 13.3641 54.2862 14.9526 54.4197 17.8774C54.564 21.0409 54.5945 21.9897 54.5945 30.0001C54.5945 38.0104 54.564 38.9592 54.4197 42.1226C54.2862 45.0475 53.7974 46.636 53.3866 47.6933C52.8425 49.0935 52.1923 50.0929 51.1426 51.1427C50.0928 52.1924 49.0933 52.8426 47.6931 53.3867C46.6359 53.7976 45.0474 54.2863 42.1225 54.4198C38.9596 54.5641 38.0108 54.5946 29.9999 54.5946C21.9891 54.5946 21.0403 54.5641 17.8774 54.4198C14.9525 54.2863 13.364 53.7976 12.3069 53.3867C10.9065 52.8426 9.90705 52.1924 8.85732 51.1427C7.80758 50.0929 7.15738 49.0935 6.61328 47.6933C6.20243 46.636 5.71371 45.0475 5.58021 42.1227C5.43588 38.9592 5.4054 38.0104 5.4054 30.0001C5.4054 21.9897 5.43588 21.0409 5.58021 17.8775C5.71371 14.9526 6.20243 13.3641 6.61328 12.3069C7.15738 10.9067 7.80758 9.90717 8.85732 8.85744C9.90705 7.8077 10.9065 7.1575 12.3069 6.61328C13.364 6.20255 14.9525 5.71383 17.8773 5.58033C21.0408 5.436 21.9896 5.40551 29.9999 5.40551ZM29.9999 0C21.8524 0 20.8309 0.0345347 17.631 0.180533C14.4378 0.326293 12.2571 0.833358 10.3487 1.57502C8.37598 2.34169 6.70295 3.36749 5.03516 5.03528C3.36737 6.70307 2.34157 8.37609 1.5749 10.3489C0.833239 12.2572 0.326174 14.4379 0.180414 17.6312C0.0344156 20.8309 0 21.8525 0 30.0001C0 38.1476 0.0344156 39.1693 0.180414 42.369C0.326174 45.5622 0.833239 47.7429 1.5749 49.6513C2.34157 51.6239 3.36737 53.2971 5.03516 54.9648C6.70295 56.6326 8.37598 57.6584 10.3487 58.4251C12.2571 59.1668 14.4378 59.6738 17.631 59.8196C20.8309 59.9656 21.8524 60 29.9999 60C38.1475 60 39.1691 59.9656 42.3688 59.8196C45.5621 59.6738 47.7428 59.1668 49.6511 58.4251C51.6239 57.6584 53.2969 56.6326 54.9647 54.9648C56.6325 53.2971 57.6583 51.624 58.425 49.6513C59.1666 47.7429 59.6737 45.5622 59.8195 42.369C59.9655 39.1693 60 38.1476 60 30.0001C60 21.8525 59.9655 20.8309 59.8195 17.6312C59.6737 14.4379 59.1666 12.2572 58.425 10.3489C57.6583 8.37609 56.6325 6.70307 54.9647 5.03528C53.2969 3.36749 51.6239 2.34169 49.6511 1.57502C47.7428 0.833358 45.5621 0.326293 42.3688 0.180533C39.1691 0.0345347 38.1475 0 29.9999 0ZM29.9999 14.5946C21.4918 14.5946 14.5945 21.4919 14.5945 30.0001C14.5945 38.5082 21.4918 45.4055 29.9999 45.4055C38.5081 45.4055 45.4054 38.5082 45.4054 30.0001C45.4054 21.4919 38.5081 14.5946 29.9999 14.5946ZM29.9999 40.0001C24.4771 40.0001 19.9999 35.5229 19.9999 30.0001C19.9999 24.4772 24.4771 20 29.9999 20C35.5228 20 40 24.4772 40 30.0001C40 35.5229 35.5228 40.0001 29.9999 40.0001ZM49.614 13.986C49.614 15.9742 48.0023 17.586 46.014 17.586C44.0258 17.586 42.414 15.9742 42.414 13.986C42.414 11.9977 44.0258 10.386 46.014 10.386C48.0023 10.386 49.614 11.9977 49.614 13.986Z" fill="black"/>
+                            </g>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_13_77">
+                            <rect width="60" height="60" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+                <div class="pai">
+                    <a href="https://www.linkedin.com/in/pedro-daniel-de-oliveira-hoeller-32b736188/" target="_blank">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="LinkedIn_icon 1" clip-path="url(#clip0_18_91)">
+                            <g id="Group">
+                            <path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M5.55556 50H44.4444C47.5127 50 50 47.5127 50 44.4444V5.55556C50 2.48731 47.5127 0 44.4444 0H5.55556C2.48731 0 0 2.48731 0 5.55556V44.4444C0 47.5127 2.48731 50 5.55556 50Z" fill="black"/>
+                            <path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M43.0556 43.0556H35.6359V30.4181C35.6359 26.9533 34.3193 25.017 31.5769 25.017C28.5935 25.017 27.0348 27.032 27.0348 30.4181V43.0556H19.8843V18.9815H27.0348V22.2243C27.0348 22.2243 29.1848 18.246 34.2935 18.246C39.3998 18.246 43.0556 21.3642 43.0556 27.8134V43.0556ZM11.3537 15.8292C8.91811 15.8292 6.94446 13.8401 6.94446 11.3868C6.94446 8.93359 8.91811 6.94446 11.3537 6.94446C13.7893 6.94446 15.7618 8.93359 15.7618 11.3868C15.7618 13.8401 13.7893 15.8292 11.3537 15.8292ZM7.66151 43.0556H15.1177V18.9815H7.66151V43.0556Z" fill="#CBF280"/>
+                            </g>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_18_91">
+                            <rect width="50" height="50" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <h1 class="title">PROGRAMADOR FULLSTACK</h1>
+            <h2 class="subtitle">Conheça mais sobre mim e minhas experiências</h2>
+            <div class="conteudos">
+                <a content="sobre-mim" class="conteudo">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+                    <span>Sobre mim</span>
+                </a>
+                <a content="historico" class="conteudo">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+                    <span>Histórico</span>
+                </a>
+                <a content="projetos" class="conteudo">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM153 289l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L71 337c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM265 255l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
+                    <span>Projetos</span>
+                </a>
+                <a content="certificados" class="conteudo">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M320 464c8.8 0 16-7.2 16-16V160H256c-17.7 0-32-14.3-32-32V48H64c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16H320zM0 64C0 28.7 28.7 0 64 0H229.5c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64z"/></svg>
+                    <span>Certificados</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="content sobre-mim">
+        <div class="top">
+            <div class="back-to-page">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+                <span>Voltar</span>
+            </div>
+            <h2>Sobre mim</h2>
+        </div>
+        <div class="conteudo">
+            <p>Conclui o curso <b>técnico integrado ao ensino médio no IFC</b> em 2021, sou <b>desenvolvedor pleno na Área Local</b> desde janeiro de 2022. Em 2023, dei início à minha jornada na faculdade de <b>Ciências da Computação</b>, reconheço que eu possa não ser o mais eloquente nas interações com clientes, porém com técnicos, desenvolvedores e profissionais da área em geral eu consigo me comunicar e transmitir ideias e propostas .</p>
+            <p>O lema que guia meu trabalho como desenvolvedor: "Eu não preciso saber tudo, não preciso ser o melhor em tudo, eu preciso resolver o que está na minha frente." Esta filosofia reflete meu compromisso em enfrentar desafios de frente, concentrando-me na resolução prática e eficiente dos problemas que surgem diante de mim.</p>
+            <p>Minha jornada como atleta, estudante e desenvolvedor tem mudado minha mentalidade resiliente e minha abordagem focada para a vida. Estou animado para continuar crescendo, aprendendo e contribuindo em todas as áreas que me apaixonam, sabendo que cada passo à frente é uma oportunidade para fazer a diferença.</p>
+        </div>
+    </div>
+    <div class="content historico">
+        <div class="top">
+            <div class="back-to-page">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+                <span>Voltar</span>
+            </div>
+            <h2>HISTÓRICO</h2>
+        </div>
+        <div class="conteudo">
+            <div class="evento">
+                <img src="./assets/images/fundo-ifc.jpeg" alt="Turma 3º ano 2022 IFC">
+                <h3 class="data">2021 - Conclusão do curso técnico do IFC</h3>
+                <div class="descricao">
+                    Ano em que me formei no IFC, curso de Técnico em informática, focado para desenvolvimento web
+                </div>
+            </div>
+            <div class="evento">
+                <img src="./assets/images/fundo_arealocal.jpg" alt="Área Local 2022">
+                <h3 class="data">2022 - Ingresso na equipe Área Local</h3>
+                <div class="descricao">
+                    Ano em que comecei a atuar como dessenvolvedor profisisonal na Área Local
+                </div>
+            </div>
+            <div class="evento">
+                <img src="./assets/images/fundo_faculdade.jpg" alt="IFC 2023">
+                <h3 class="data">2023 - Ingresso na faculdade de Ciência da Computação</h3>
+                <div class="descricao">
+                    Ano em que comecei a me formar como cientista da computação no IFC
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content projetos">
+        <div class="top">
+            <div class="back-to-page">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+                <span>Voltar</span>
+            </div>
+            <h2>PROJETOS</h2>
+        </div>
+        <div class="conteudo">
+        </div>
+    </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="./public/js/app.js"></script>
 </html>
