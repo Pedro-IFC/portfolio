@@ -587,12 +587,12 @@ a#whatsapp svg {
 .container .left .conteudos a svg {
   width: 40px;
   height: auto;
-  fill: #0057A8;
+  fill: #1f1e1a;
 }
 .container .left .conteudos a span {
   width: 100%;
   text-align: center;
-  color: #0057A8;
+  color: #1f1e1a;
   text-align: center;
   font-family: Open Sans;
   font-size: 18px;
@@ -606,10 +606,10 @@ a#whatsapp svg {
 .container .left .conteudos a:nth-child(1) {
   background-color: #FFE16B;
 }
-.container .left .conteudos a:nth-child(2) {
+.container .left .conteudos a:nth-child(3) {
   background-color: #A7A0E0;
 }
-.container .left .conteudos a:nth-child(3) {
+.container .left .conteudos a:nth-child(2) {
   background-color: #FA86B7;
 }
 .container .left .conteudos a:nth-child(4) {
@@ -621,6 +621,49 @@ a#whatsapp svg {
 }
 .projetos .conteudo {
   padding-top: 80px;
+}
+.projetos .conteudo .projeto img {
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.projetos .conteudo .projeto > h2 {
+  color: #FFF;
+  text-align: left;
+  font-family: "Open Sans";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 40px;
+}
+.projetos .conteudo .projeto .links {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  max-width: 300px;
+  padding-bottom: 40px;
+}
+.projetos .conteudo .projeto .links a {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+.projetos .conteudo .projeto .colaboradores {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  max-width: 300px;
+  padding-bottom: 40px;
+}
+.projetos .conteudo .projeto .colaboradores a {
+  width: 100%;
+  display: block;
 }
 .projetos .back-to-page svg, .projetos .back-to-page span {
   color: #000;
@@ -635,61 +678,26 @@ a#whatsapp svg {
   fill: #FA86B7;
 }
 
-.historico {
-  background-color: #A7A0E0;
+.skill-tree {
+  background-color: #5CD9B4;
 }
-.historico .conteudo {
+.skill-tree .conteudo {
   padding-top: 80px;
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 32px;
 }
-.historico .conteudo .evento {
-  width: 40%;
-  padding: 20px;
-  border-radius: 8px;
-  border: 1px solid #FFF;
-  margin-left: 20%;
-}
-.historico .conteudo .evento img {
-  width: 100%;
-}
-.historico .conteudo .evento .data {
-  padding-top: 20px;
-  color: #FFF;
-  text-align: center;
-  font-family: Open Sans;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-}
-.historico .conteudo .evento .descricao {
-  padding-top: 20px;
-  font-family: Open Sans;
-  text-align: justify;
-  color: #FFF;
-}
-.historico .conteudo .evento .descricao p {
-  color: #FFF;
-  font-family: Open Sans;
-  text-align: justify;
-  padding-bottom: 20px;
-}
-.historico .conteudo .evento:nth-child(2n) {
+.skill-tree .conteudo .evento:nth-child(2n) {
   margin-left: 40%;
 }
-.historico .back-to-page svg, .historico .back-to-page span {
+.skill-tree .back-to-page svg, .skill-tree .back-to-page span {
   color: #000;
 }
-.historico .back-to-page:hover {
+.skill-tree .back-to-page:hover {
   background-color: #000;
 }
-.historico .back-to-page:hover span {
-  color: #A7A0E0;
+.skill-tree .back-to-page:hover span {
+  color: #5CD9B4;
 }
-.historico .back-to-page:hover svg {
-  fill: #A7A0E0;
+.skill-tree .back-to-page:hover svg {
+  fill: #5CD9B4;
 }
 
 .sobre-mim {
@@ -762,7 +770,7 @@ a#whatsapp svg {
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
-  line-height: normal;
+  line-height: 1;
   text-transform: uppercase;
 }
 
@@ -780,14 +788,14 @@ a#whatsapp svg {
 }
 .fundo::before {
   left: 0;
-  background-color: #0057A8;
+  background-color: #1f1e1a;
   width: 72%;
 }
 .fundo::after {
   left: auto;
   right: 0px;
   width: 28%;
-  background-color: #CBF280;
+  background-color: #e4332d;
 }
 .fundo .right {
   width: 200px;
@@ -840,7 +848,7 @@ a#whatsapp svg {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #CBF280;
+  background-color: #e4332d;
   border-radius: 50%;
   padding: 12px;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.5);

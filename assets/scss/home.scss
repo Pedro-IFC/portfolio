@@ -44,12 +44,12 @@
                 svg{
                     width: 40px;
                     height: auto;
-                    fill: #0057A8;
+                    fill: #1f1e1a;
                 }
                 span{
                     width: 100%;
                     text-align: center;
-                    color: #0057A8;
+                    color: #1f1e1a;
                     text-align: center;
                     font-family: Open Sans;
                     font-size: 18px;
@@ -65,10 +65,10 @@
             a:nth-child(1){
                 background-color: #FFE16B;
             }
-            a:nth-child(2){
+            a:nth-child(3){
                 background-color: #A7A0E0;
             }
-            a:nth-child(3){
+            a:nth-child(2){
                 background-color: #FA86B7;
             }
             a:nth-child(4){
@@ -81,6 +81,49 @@
     background-color: #FA86B7;
     .conteudo{
         padding-top: 80px;
+        .projeto{
+            img{
+                max-width: 100%;
+                object-fit: contain;
+            }
+            >h2{
+                color: #FFF;
+                text-align: left;
+                font-family: "Open Sans";
+                font-size: 34px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                padding-bottom: 40px;
+            }
+            .links{
+                display: flex;
+                justify-content: left;
+                flex-wrap: wrap;
+                row-gap: 24px;
+                max-width: 300px;
+                padding-bottom: 40px;
+                a{
+                    width: 100%;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    column-gap: 12px;
+                }
+            }
+            .colaboradores{
+                display: flex;
+                justify-content: left;
+                flex-wrap: wrap;
+                row-gap: 24px;
+                max-width: 300px;
+                padding-bottom: 40px;
+                a{
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
     }
     .back-to-page{
         svg, span{
@@ -97,45 +140,10 @@
         }
     }
 }
-.historico{
-    background-color: #A7A0E0;
+.skill-tree{
+    background-color: #5CD9B4;
     .conteudo{
         padding-top: 80px;
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 32px;
-        .evento{
-            width: 40%;
-            padding: 20px;
-            border-radius: 8px;
-            border: 1px solid #FFF;
-            margin-left: 20%;
-            img{
-                width: 100%;
-            }
-            .data{
-                padding-top: 20px;
-                color: #FFF;
-                text-align: center;
-                font-family: Open Sans;
-                font-size: 24px;
-                font-style: normal;
-                font-weight: 800;
-                line-height: normal;
-            }
-            .descricao{
-                padding-top: 20px;
-                font-family: Open Sans;
-                text-align: justify;
-                color: #FFF;
-                p{
-                    color: #FFF;
-                    font-family: Open Sans;
-                    text-align: justify;
-                    padding-bottom: 20px;
-                }
-            }
-        }
         .evento:nth-child(2n){
             margin-left: 40%;
         }
@@ -147,10 +155,10 @@
         &:hover{
             background-color: #000;
             span{
-                color: #A7A0E0;
+                color: #5CD9B4;
             }
             svg{
-                fill:  #A7A0E0;
+                fill:  #5CD9B4;
             }
         }
     }
@@ -221,7 +229,7 @@
         font-size: 24px;
         font-style: normal;
         font-weight: 800;
-        line-height: normal;
+        line-height: 1;
         text-transform: uppercase;
     }
 }
@@ -239,14 +247,14 @@
     }
     &::before{
         left: 0;
-        background-color: #0057A8;
+        background-color: #1f1e1a;
         width: 72%;
     }
     &::after{
         left: auto;
         right: 0px;
         width: 28%;
-        background-color: #CBF280;
+        background-color: #e4332d;
     }
     .right{
         width: 200px;
@@ -300,7 +308,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background-color: #CBF280;
+                    background-color: #e4332d;
                     border-radius: 50%;
                     padding: 12px;
                     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.5);
